@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wraper {
+    width: 80%;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: fantasy;
+    color: goldenrod;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.logotipe {
+    background: url(/img/1557942232_zodiac-1.jpg);
+    
+    height: 350px;
+    
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+li {
+    text-decoration: none;
+    padding: 10px 50px;
+    list-style: none;
+    background-color: goldenrod;
+    border: 2px solid black;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+li:hover {
+    background-color: black;
+    color: goldenrod;
+}
+
+main {
+    background-color: #333;
+}
+
+.scorpion {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.canсer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.Sagittarius {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.gemini {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.foot {
+    display: flex;
+    background-color: #444;
+    color: black; 
+    
+
+}
+
+.foot p {
+    margin-left: 70%;
+}
+
+p {
+    width: 50%;
+    font-size: 20px;
+    color: goldenrod;
+    
+}
